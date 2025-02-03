@@ -8,6 +8,4 @@ sudo git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git
 
 mv kali/.zshrc ~/.zshrc
 
-chsh -s $(which zsh)
-
 source ~/.zshrc
