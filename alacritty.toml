@@ -25,6 +25,7 @@ family = "Iosevka Nerd Font"
 family = "Iosevka Nerd Font"
 
 [font.normal]
-family = "Iosevka Nerd Font"
+#family = "Iosevka Nerd Font"
 #family = "MesloLGS Nerd Font Mono"
+family = "JetBrains Mono Nerd Font"
 style = "Regular"
