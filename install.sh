@@ -6,3 +6,16 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.o
 
 mv kali/.zshrc ~/.zshrc
 mv kali/.images ~/
+
+sudo apt install alacritty
+
+mkdir -p ~/.config/alacritty/
+mkdir -p ~/.local/share/fonts/
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Iosevka.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/RobotoMono.zip
+
+unzip Iosevka.zip -d ~/.local/share/fonts/
+unzip RobotoMono.zip -d ~/.local/share/fonts/
+
+mv kali/alacritty.toml ~/.config/alacritty/
