@@ -16,7 +16,7 @@ columns = 95
 lines = 30
 
 [font]
-size = 15.0
+size = 17.0
 
 [font.bold]
 family = "Iosevka Nerd Font"
@@ -26,4 +26,5 @@ family = "Iosevka Nerd Font"
 
 [font.normal]
 family = "Iosevka Nerd Font"
+#family = "MesloLGS Nerd Font Mono"
 style = "Regular"
