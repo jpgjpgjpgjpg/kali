@@ -1,51 +1,19 @@
+live_config_reload = true
+
 [env]
 TERM = "xterm-256color"
 
-[shell]
-program = "/bin/zsh"
+[window]
+padding.x = 10
+padding.y = 10
 
-[general]
-live_config_reload = true
+decorations = "buttonless"
+opacity = 0.75
+blur = true
 
-[[mouse.bindings]]
-action = "PasteSelection"
-mouse = "Middle"
-
-[bell]
-animation = "EaseOutExpo"
-color = "0xffffff"
-duration = 0
-
-[colors]
-draw_bold_text_with_bright_colors = true
-
-[colors.bright]
-black = "0x666666"
-blue = "0x7aa6da"
-cyan = "0x54ced6"
-green = "0x9ec400"
-magenta = "0xb77ee0"
-red = "0xff3334"
-white = "0xffffff"
-yellow = "0xe7c547"
-
-[colors.normal]
-black = "0x000000"
-blue = "0x7aa6da"
-cyan = "0x70c0ba"
-green = "0xb9ca4a"
-magenta = "0xc397d8"
-red = "0xd54e53"
-white = "0xeaeaea"
-yellow = "0xe6c547"
-
-[colors.primary]
-background = "0x000000"
-foreground = "0xeaeaea"
-
-[cursor]
-style = "Block"
-unfocused_hollow = true
+[window.dimensions]
+columns = 95
+lines = 30
 
 [font]
 size = 15.0
@@ -53,41 +21,9 @@ size = 15.0
 [font.bold]
 family = "Iosevka Nerd Font"
 
-[font.glyph_offset]
-x = 0
-y = 0
-
 [font.italic]
 family = "Iosevka Nerd Font"
 
 [font.normal]
 family = "Iosevka Nerd Font"
 style = "Regular"
-
-[font.offset]
-x = 1
-y = 0
-
-[mouse]
-hide_when_typing = false
-
-[scrolling]
-history = 10000
-multiplier = 3
-
-[selection]
-save_to_clipboard = false
-semantic_escape_chars = ''',│`|:"' ()[]{}<>'''
-
-[window]
-decorations = "full"
-dynamic_padding = true
-opacity = 0.75
-
-[window.dimensions]
-columns = 95
-lines = 30
-
-[window.padding]
-x = 12
-y = 12
