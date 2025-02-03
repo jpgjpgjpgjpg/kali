@@ -7,8 +7,6 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.o
 mv kali/.zshrc ~/.zshrc
 mv kali/.images ~/
 
-sudo apt install alacritty
-
 mkdir -p ~/.config/alacritty/
 mkdir -p ~/.local/share/fonts/
 
@@ -21,3 +19,5 @@ unzip Iosevka.zip -d ~/.local/share/fonts/
 unzip RobotoMono.zip -d ~/.local/share/fonts/
 
 mv kali/alacritty.toml ~/.config/alacritty/
+
+sudo apt install alacritty
