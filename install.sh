@@ -14,7 +14,9 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Iosevka.zi
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/RobotoMono.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.3/Hack.zip
 wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/Meslo.zip
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.3.0/JetBrainsMono.zip
 
+unzip JetBrainsMono.zip -d ~/.local/share/fonts/
 unzip Meslo.zip -d ~/.local/share/fonts/
 unzip Hack.zip -d ~/.local/share/fonts/
 unzip Iosevka.zip -d ~/.local/share/fonts/
