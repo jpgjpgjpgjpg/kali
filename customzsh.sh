@@ -12,4 +12,6 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 
 mv kali/.zshrc ~/.zshrc
 
+chsh -s $(which zsh)
+
 source ~/.zshrc
