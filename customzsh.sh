@@ -7,5 +7,3 @@ sudo git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUS
 sudo git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
 
 mv kali/.zshrc ~/.zshrc
-
-source ~/.zshrc
