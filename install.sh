@@ -6,6 +6,7 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ~/.o
 
 mv kali/.zshrc ~/.zshrc
 mv kali/.images ~/
+echo -n 'set number\nfiletype on' > ~/.vimrc
 
 mkdir -p ~/.config/alacritty/
 mkdir -p ~/.local/share/fonts/
